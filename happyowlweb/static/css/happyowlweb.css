@@ -1,1 +1,94 @@
 /*! project specific CSS goes here. */
+@font-face {
+    font-family: 'Champagne & Limousines';
+    src: url('../font/Champagne & Limousines.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Champagne & Limousines';
+    src: url('../font/Champagne & Limousines Italic.ttf');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Champagne & Limousines';
+    src: url('../font/Champagne & Limousines Bold.ttf');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Champagne & Limousines';
+    src: url('../font/Champagne & Limousines Bold Italic.ttf');
+    font-weight: bold;
+    font-style: italic;
+}
+.champagne{
+    font-family: 'Champagne & Limousines', helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-shadow: 0 0 0.5px rgba(255,255,255,1)
+}
+
+body{
+    background-color: #28646d
+}
+
+
+.landing-block{
+    margin-top: 75px;
+}
+
+.phone-block{
+    position: relative;
+}
+
+.phone2{
+    position: absolute;
+    top: 30px;
+    right: 80px;
+}
+
+.mascot-background{
+    height: 175px;
+    width: 175px;
+    background-color: #fbedac;
+    border: 10px solid #fbedac;
+    border-radius: 86px;
+    margin: 0 auto;
+}
+
+.mascot{
+    position: relative;
+    left: 33px;
+    top: 30px;
+}
+
+.logo{
+    margin-top: 13px;
+    font-size: 5.25em;
+    color: #ffffff;
+    letter-spacing: 6px;
+    text-align: center
+}
+
+.tagline{
+    margin-top: 15px;
+    font-size: 1.75em;
+    line-height: 110%;
+    color: #ffffff;
+    display: block;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.download-block{
+    margin-top: 75px;
+    position: relative;
+    left: 50px;
+}
+
+.download{
+    color: #ffffff;
+    font-size: 1.25em;
+    letter-spacing: 1px;
+}

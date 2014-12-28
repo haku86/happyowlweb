@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+
+{% load staticfiles %}
+
+{% block content %}
+<div class="container">
+    <div class="row landing-block">
+        <div class="col-md-6 phone-block">
+            <img class="phone1" src="{% static 'img/phone1.png' %}"/>
+            <img class="phone2" src="{% static 'img/phone2.png' %}"/>
+        </div>
+        <div class="col-md-6">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="mascot-background"><img class="mascot" src="{% static 'img/mascot_pink.png' %}"/></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="champagne logo">Happy Owl</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <span class="champagne tagline">Discover happy hours and<br/>cheers till you are Happy Owls</span>
+                </div>
+            </div>
+            <div class="row download-block">
+                <div class="col-md-6">
+                    <span class="champagne download">Download for Free</span>
+                    <a href="#"><img src="{% static 'img/appstore.png' %}"/></a>
+                </div>
+                <div class="col-md-6">
+                    <span class="champagne download">Coming soon...</span>
+                    <a href="#"><img src="{% static 'img/googleplay.png' %}"/></a>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+{% endblock %}
